@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistick - Buy & Sell Art</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a0572, #d63384, #000);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Loading Screen */
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+
+        /* Fade-out animation */
+        .fade-out {
+            animation: fadeOut 2s forwards;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        /* Logo */
+        .logo {
+            width: 120px;
+            margin: 20px;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .section {
+            margin: 50px 0;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            color: white;
+            background: #d63384;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 25px;
+        }
+
+        .btn:hover {
+            background: #9a0680;
+        }
+
+        /* Grid for sponsors */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid img {
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Loading Page -->
+    <div id="loading">
+        <img class="logo" src="https://trickles.simdif.com/images/public/sd_67b18e69a0812.png?no_cache=1739693195" alt="Artistick Logo">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <img class="logo" src="https://trickles.simdif.com/images/public/sd_67b18e69a0812.png?no_cache=1739693195" alt="Artistick Logo">
+        
+        <h1>Buy and Sell Art, Antiques, and Jewelry</h1>
+        <p>Visit any of our trusted merchant websites:</p>
+
+        <div class="section">
+            <a class="btn" href="https://www.art-torg.com" target="_blank">Live Auction</a>
+            <a class="btn" href="https://sellmyjewelry.com" target="_blank">Sell My Jewelry</a>
+            <a class="btn" href="https://www.rubylane.com" target="_blank">Ruby Lane</a>
+            <a class="btn" href="https://www.amazon.com" target="_blank">Amazon</a>
+            <a class="btn" href="https://www.ebay.com" target="_blank">eBay</a>
+            <a class="btn" href="https://www.etsy.com" target="_blank">Etsy</a>
+        </div>
+
+        <div class="section">
+            <h2>Who We Are</h2>
+            <p>
+                Art is Tick is a company founded by Austin David. He travels the world collecting antiques, jewelry, and artworks. 
+     People want to buy and sell art and jewels all around the world so he dreamt of making it simple for them to do and Art is Tick became a reality.
+                Our goal is to create a safe space where people can buy and sell authentic art. See us as the bridge between different sectors of Art. We only work with the most reliable That's our Tick ✓.
+            </p>
+            <p>We have galleries in London and the US and are expanding globally.</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p><a href="mailto:artistickverified@gmail.com" class="btn">Email Us</a></p>
+        </div>
+
+        <div class="section">
+            <h2>We're Hiring</h2>
+            <p>Fluent Spanish or Portuguese speakers needed. €6000/month (€1500/week).</p>
+            <p>Responsibilities: Promote artwork online, engage with replies and questions.</p>
+            <p>Positions available:4 slots available.</p>
+            <p>Job Description :Minimum 5 posts per week on social media. Manual and Job Instructions will be emailed to you.</p>
+            <p>Payments: USDT, PayPal, or Bank Transfer.</p>
+            <a href="mailto:artistickverified@gmail.com" class="btn">Apply Now</a>
+        </div>
+
+        <div class="section">
+            <h2>Our Sponsors & Partners</h2>
+            <div class="grid">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-qq9b4qtwGE7Q1-GY8ZXJni-ggxVtqWzB4UewnUSp21WX6rUBYUGHo12&s=10" alt="PayPal">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDWAHgQ_R6FvbsnWlto26aAXzkN7qICKd9gfuHkHvZF7hlg_XaDCnmUZb&s=10" alt="Binance">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3IyFxK6hxJ9wn9X7qbLrj61CDZz7_JHjGGILJ0gv6lCiGOWXupOd6A2_g&s=10" alt="FedEx">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-00IDQiOEPtyOrqIvZc-8yTUejJWkPK5hYYmZ78566slcF-qQoAODf03_&s=10" alt="Amazon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3yg2km0OBj1LhAXe4TxJSW4POS1eGw-90RQ&usqp=CAU" alt="Steam Card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8K78wdDf1FCj_yo68VQkiwgh_3atkBzY00AUFPSaVyt-TBOt3UxLw-CE&s=10" alt="Western Union">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Our Locations</h2>
+            <p>UK | US | Portugal | Spain</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Art is priceless and so are you...</p>
+        <p>Artistick© 2025</p>
+    </footer>
+
+    <script>
+        // Remove loading screen after 3 seconds
+        window.onload = function () {
+            setTimeout(() => {
+                document.getElementById("loading").classList.add("fade-out");
+            }, 3000);
+        };
+    </script>
+</body>
+</html>
