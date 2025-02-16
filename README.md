@@ -1,0 +1,1 @@
+Art is Tick is a company that helps people buy and sell Artworks, antiques, valuables, precious stones, jewelry,artifacts, and digital art worldwide through closing the gap between the buyer and the seller by being an online bridge
